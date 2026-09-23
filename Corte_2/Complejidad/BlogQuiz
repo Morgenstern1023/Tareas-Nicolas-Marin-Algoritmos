@@ -1,0 +1,52 @@
+Ejercicio A:
+O(1) Constante
+Primer elemento de un vector
+
+Ejercicio B:
+O(n) Lineal
+Suma todos los elementos de una lista
+
+Ejercicio C:
+O(n^2) Cuadratica
+Cuenta los v elementos de un arreglo v veces
+
+Ejercicio D:
+O(log n)
+Busqueda binaria
+
+Ejercicio E:
+O(5n) que se simplifica a O(n)
+Imprime todos los elementos de v junto a los 5 primeros elementos de v
+
+Tabla de complejidad
+Clasificar la complejidad de todos los algoritmos vistos en clase
+
+
+Ordenamiento:    Bubble Sort
+Complejidad:    O(n^2)
+Razon: Hay un for anidado
+
+Ordenamiento:   Selection Sort
+Complejidad:    O(n^2)
+Razon: Hay un for anidado
+
+Ordenamiento:   Insertion Sort
+Complejidad:    O(n^2)
+Razon: Hay un while anidado en un for
+
+Ordenamiento:   Merge Sort
+Complejidad:    O(n * log(n))
+Razon: Divide los elementos en dos partes de n/2 elementos en las cuales se recorre un ciclo
+
+Ordenamiento:   Quick sort
+Complejidad: O(n^2)
+Razón: Crea particiones las cuales cada una recorre un for si el pivot es el elemento mayor o menor en todas da n^2
+
+Ordenamiento: Heat Sort
+Complejidad: O(n * log(n))
+Razon: Separa los elementos en dos grupos y cada una hace un for
+
+Ordenamiento Bucket Sort
+Complejidad: O(n) + O(k)
+Donde n son los elementos y k las cubetas, debido a que hace un for para elementos y luego por aparte un for para cubetas 
+es posible que se pueda escribir como O(n+k)
