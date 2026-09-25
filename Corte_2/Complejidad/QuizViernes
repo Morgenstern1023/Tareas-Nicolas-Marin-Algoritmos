@@ -1,0 +1,78 @@
+Leer que es CD/CI 
+Mirar y hacer como aplicar el CD/CI en el repositorio de tareas
+
+En desarrollo -> Pruebas Unitarias +85%
+En Pruebas -> QA Automatico con Selenium
+
+Bucket Sort: O(n) + O(k) 
+
+1. Que es n en la secuencia
+
+Corrección:
+
+n la cantidad de veces que repite el proceso 
+
+2. Cuantas veces se ejecuta el proceso si se duplican los datos
+
+Se ejecuta el doble de veces (2n + k)
+Si se duplican los cubos seria (n + 2k)
+Si se duplican ambos es (2n + 2k)
+
+3. Dentro de esa secuencia se invoca otro proceso, cuantos?
+Si len(array), max array y min array, se ejecuta un proceso para cada uno de ellos.
+
+4. Que tipo de estructura de datos se esta utilizando
+
+Vector o array
+
+Aritmetica de complejidad
+
+Regla de la suma: Codigo en secuencia
+Se suman los tiempos de cada proceso
+
+Regla del producto: Codigo anidado
+Se multiplican los tiempos de cada proceso
+
+# for (i in range(n)): O(n)
+#   for (i in range(m)): O(m)
+# Complejidad total: O(n * m)
+
+Regla llamada a funciones
+Si una función tiene complejidad O(f(n)) y se llama dentro de un proceso con complejidad O(g(n)), la complejidad total es O(f(n) * g(n))
+
+Quiz
+
+1 O(n^2)
+2. O(log n)
+3. O(n * log n)
+
+Aritmetica Secuencia
+
+O(n) ---> Cantidad de Datos
+O(k) ---> Cantidad de cubos o buckets
+
+Es secuencial por lo que la complejidad es O(n + k)
+
+Llama a len(array) max(array) y min(array)
+
+Complejidad espacial de los metodos:
+len(array) ---> O(1)
+max(array) ---> O(1)
+min(array) ---> O(1)
+
+Complejidad temporal de los metodos:
+len(array) ---> O(1)
+max(array) ---> O(n)
+min(array) ---> O(n)
+
+Complejidad temporal de la secuencia:
+O(n + n + n + 1 + k) ---> O(3n + k + 1) ---> O(n + k)
+
+Esto se hace debido a que la llamada de las funciones len(array) max(array y min(array) 
+se llaman una vez de forma secuencial y luego se llama for con n y for con k
+
+Complejidad espacial de la secuencia:
+O(1 + 1 + 1 + n + k) ---> O(3 + n + k) ---> O(n + k)
+
+Como tienen una complejidad de O(1), su complejidad no varia con los datos, 
+en cambio el n y el k dependen del for por lo que si estos aumentan cambian la complejidad total.
