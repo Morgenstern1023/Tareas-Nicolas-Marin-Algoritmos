@@ -1,0 +1,2 @@
+Correción: La posición se guarda en 1 porque empieza a contar en cero, por lo tanto la formula
+seria (frente + cantidad) % capacidad - 1.
