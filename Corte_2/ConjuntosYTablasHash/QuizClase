@@ -1,0 +1,63 @@
+A  (Julian) |   B (Daniel)   |   C (Juan)  |   D (Maria)
+E  (Edward) |   F (Oscar)   |   G (Nicolas)  |   Vacio
+I (David)  |  J (Asier)    |  K (Andres)   |   L (Sergio)
+
+
+
+||| Ej: TATIANA = 20 + 1 + 20 + 9 + 1 + 14 + 1
+    == 66 % 11 = 0                             |||
+
+Julian = 10 + 21 + 12 + 9 + 1 + 14 = 
+67 % 11 = 1
+
+Daniel = 4 + 1 + 14 + 5 + 12 = 36 
+36 % 11 = 3
+
+Juan = 10 + 21 + 1 + 14 =
+46 % 11 = 2
+
+Maria = 13 + 1 + 18 + 9 + 1 
+= 42 % 11 
+= 9
+
+Edward = 5 + 4 + 23 + 1 + 18 + 4
+= 55 % 11
+= 0
+
+Oscar = 15 + 19 + 3 + 1 + 18
+= 56 % 11
+= 1
+
+Nicolas = 14 + 9 + 3 + 15 + 12 + 1 + 19
+= 73 % 11
+= 7
+
+David = 4 + 1 + 22 + 9 + 4
+= 40 % 11
+= 7
+
+Asier = 1 + 19 + 9 + 5 + 18
+= 52 % 11
+= 8
+
+Andres = 1 + 14 + 4 + 18 + 5 + 19
+= 61 % 11
+= 6
+
+Sergio = 19 + 5 + 18 + 7 + 9 + 15
+= 73 % 11
+= 7
+
+Nueva Organización
+
+A(0) (Edward) | B(1) Julian, Oscar | C(2) Juan | D(3) Daniel
+E(4) Vacio    | F(5) Vacio | G(6) Andres | H(7) Nicolas, Sergio, David | I(8) Asier | J(9) Maria
+K(10) Vacio | Vacio| 
+
+Casillero con mas personas: H(7) Nicolas, Sergio, David
+
+Una persona especifica se encuentra en un mismo casillero para todos?
+Si
+
+Seria rapido?
+Depende
