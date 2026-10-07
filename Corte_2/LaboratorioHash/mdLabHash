@@ -1,0 +1,7 @@
+Nicolas - Python
+Oscar - C++
+
+1. Porque toma todos los datos iguales entonces lo que ocurre es que todos tendrian la misma suma y por ende la misma cubeta
+2. No, porque sigue guardando todas en la misma cubeta debido a lo explicado anteriormente
+3. Deberia hacer O(n) en el peor de los casos y O(1) en el mejor debido a que estan todos en el mismo
+4. Deberia buscar que exista una distribucion correcta, es decir no todos en la misma cubeta que el factor de carga sea adecuado y que reduzca la complejidad.
