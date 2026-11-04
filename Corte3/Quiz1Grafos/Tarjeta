@@ -1,0 +1,25 @@
+----------------------
+|                    |
+|       Bosa         |  
+|                    |
+----------------------
+Centor -> Norte l
+Norte-> Occidente   l
+Centro ->Sur    l
+Centro -> Oriente l
+Norte -> Chapinero l
+Sur ->Bosa l
+Oriente -> Usaquen l
+Chapinero -> Usaquen l
+Occidete ->Bosa l
+Bosa -> Vereda l
+Vereda-> Norte l
+Bosa -> Chapinero
+Chapinero -> Vereda
+Sur ->Usaquen
+Usaquen -> Vereda
+Norte -> Vereda
+Chapinero -> Bosa
+Chapinero -> Sur
+grado: 2
+
